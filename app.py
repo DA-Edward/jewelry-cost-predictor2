@@ -1,10 +1,9 @@
-
 import streamlit as st
 import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("jewelry_cost_model.pkl")
+model = joblib.load("jewelry_cost_model_compatible.pkl")
 
 st.title("💎 Jewelry Cost Predictor")
 
